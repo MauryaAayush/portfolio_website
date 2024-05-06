@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/constants.dart';
 import 'package:portfolio_website/models/Project.dart';
@@ -6,6 +5,7 @@ import 'package:portfolio_website/screens/main/main_Screen.dart';
 import 'Components/HighLight_Info.dart';
 import 'Components/Home_banner.dart';
 import 'Components/Projectcard.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
