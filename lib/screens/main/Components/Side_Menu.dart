@@ -5,6 +5,7 @@ import 'package:portfolio_website/constants.dart';
 
 import '../../../Components/AnimatedCircularProgessIndicator.dart';
 import 'Area_Info_Text.dart';
+import 'Coding.dart';
 import 'My-Info.dart';
 import 'Skills.dart';
 
@@ -35,7 +36,6 @@ Drawer Show_Menu(BuildContext context) {
                 height: defaultPadding,
               ),
               Coding(),
-
             ],
           ),
         ))
@@ -43,28 +43,6 @@ Drawer Show_Menu(BuildContext context) {
     ),
   );
 }
-
-class Coding extends StatelessWidget {
-  const Coding({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Divider(),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-          child: Text('Coding',style: Theme.of(context).textTheme.titleSmall,),
-        )
-      ],
-    );
-  }
-}
-
-
 
 
 
