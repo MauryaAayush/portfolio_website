@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_website/responsive.dart';
 
 import '../../../constants.dart';
 import '../../../models/Project.dart';
@@ -28,7 +29,7 @@ class Projectcard extends StatelessWidget {
           Spacer(),
           Text(
             project.description!,
-            maxLines: 4,
+            maxLines: Responsive.isMobileLarge(context) ? 3 : 4,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(height: 1.5),
           ),
