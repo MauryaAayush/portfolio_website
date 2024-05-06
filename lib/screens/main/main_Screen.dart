@@ -4,7 +4,9 @@ import 'package:portfolio_website/constants.dart';
 import 'Components/Side_Menu.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+  const MainScreen({super.key, required this.children});
+
+  final List<Widget> children;
 
   @override
   Widget build(BuildContext context) {
@@ -18,11 +20,17 @@ class MainScreen extends StatelessWidget {
                   // this take 2/9 part
                   flex: 2,
                   child: Show_Menu(context)),
+              SizedBox(width: defaultPadding,),
               Expanded(
                   // this take 7/9 part
                   flex: 7,
-                  child: Container(
-                    color: Colors.blue,
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        ...children,
+                        // our footer
+                      ],
+                    ),
                   )),
             ],
           ),
@@ -30,6 +38,4 @@ class MainScreen extends StatelessWidget {
       ),
     );
   }
-
-
 }

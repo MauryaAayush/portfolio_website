@@ -39,6 +39,9 @@ Drawer Show_Menu(BuildContext context) {
               Coding(),
               Knowledge(),
               Divider(),
+              SizedBox(
+                height: defaultPadding / 2,
+              ),
               TextButton(
                   onPressed: () {},
                   child: FittedBox(
@@ -58,7 +61,29 @@ Drawer Show_Menu(BuildContext context) {
                       ],
                     ),
                   )),
+              Container(
+                margin: EdgeInsets.only(top: defaultPadding),
+                color: Color(0xFF24242E),
+                child: Row(
+                  children: [
+                    Spacer(),
+                    IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/linkedin.svg")),
+                    IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/github.svg")),
+                    IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/twitter.svg")),
+                    IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/behance.svg")),
 
+                    Spacer(),
+                  ],
+                ),
+              ),
             ],
           ),
         ))
