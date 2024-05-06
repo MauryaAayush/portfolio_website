@@ -4,7 +4,6 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:portfolio_website/constants.dart';
 
-import '../../../Components/AnimatedCircularProgessIndicator.dart';
 import 'Area_Info_Text.dart';
 import 'Coding.dart';
 import 'Knowledge.dart';
@@ -40,18 +39,25 @@ Drawer Show_Menu(BuildContext context) {
               Coding(),
               Knowledge(),
               Divider(),
-              TextButton(onPressed: () {
-
-              }, child: Row(
-                children: [
-                  Text('DOWNLOAD CV',style: TextStyle(
-                    color: Theme.of(context).textTheme.titleLarge!.color,
-                  ),
-                  ),
-
-                  SvgPicture.asset("assets/icons/download.svg"),
-                ],
-              ))
+              TextButton(
+                  onPressed: () {},
+                  child: FittedBox(
+                    child: Row(
+                      children: [
+                        Text(
+                          'DOWNLOAD CV',
+                          style: TextStyle(
+                            color:
+                                Theme.of(context).textTheme.titleLarge!.color,
+                          ),
+                        ),
+                        SizedBox(
+                          width: defaultPadding / 2,
+                        ),
+                        SvgPicture.asset("assets/icons/download.svg"),
+                      ],
+                    ),
+                  ))
             ],
           ),
         ))
@@ -59,7 +65,3 @@ Drawer Show_Menu(BuildContext context) {
     ),
   );
 }
-
-
-
-
