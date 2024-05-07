@@ -27,8 +27,11 @@ class Recommendations extends StatelessWidget {
         child: Row(
           children: List.generate(
               demo_recommendations.length,
-                  (index) => Recommendationcard(recommendation: demo_recommendations[index],
-              )),
+                  (index) => Padding(
+                    padding: const EdgeInsets.only(right: defaultPadding),
+                    child: Recommendationcard(recommendation: demo_recommendations[index],
+                                  ),
+                  )),
         ),
       ),
         ],
