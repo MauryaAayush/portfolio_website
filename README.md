@@ -24,9 +24,9 @@
 <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/e0865e6d-d1e7-411c-83fa-a5fb1de88df2" height=500px >
 <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/9b020ba3-e14d-45cf-9907-7721466ba749" height=500px >
 
-<img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/12bc68bb-6936-4bdc-930a-887c21d761cf" height=500px hspace=20>
- <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/9d78b582-9ab6-472c-86f0-aafd36711828" height=500px hspace=20>
- <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/790df0bf-5276-4f44-8fe8-1e958d35a073" height=500px hspace=20>
+<img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/12bc68bb-6936-4bdc-930a-887c21d761cf" width=500px hspace=20>
+ <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/9d78b582-9ab6-472c-86f0-aafd36711828" width=500px hspace=20>
+ <img src="https://github.com/MauryaAayush/portfolio_website/assets/143180849/790df0bf-5276-4f44-8fe8-1e958d35a073" width=500px hspace=20>
 
 <video src ="https://github.com/MauryaAayush/portfolio_website/assets/143180849/6463ef66-2f92-42bd-adb7-6c454cc7c8f5">
 
